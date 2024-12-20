@@ -1,0 +1,291 @@
+html,
+body {
+  background-color: #fff;
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+* {
+  text-decoration: none !important;
+}
+
+/* Navbar CSS */
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+  background-color: #fff;
+  box-shadow: 0 19px 38px rgb(0, 0, 0, 0.1);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.navbar .navigation a {
+  margin: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.navbar .navigation .main {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.navbar .logo {
+  font-size: 25px;
+  color: #e63946;
+}
+
+/* Landing Page CSS */
+
+.landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vh 0 10vh;
+  height: 100vh;
+}
+
+.landing .text h1 {
+  font-size: 50px;
+  margin: 0 !important;
+}
+
+.landing .text h3 {
+  margin: 0 !important;
+  font-size: 20px;
+  opacity: 0.5;
+  line-height: 30px;
+}
+
+.landing .text .button {
+  width: 120px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 3px 20px 3px 20px;
+  background-color: #e63946;
+  border-radius: 45px;
+}
+
+.landing .text .button a {
+  font-size: 20px;
+  color: #fff;
+  align-items: center;
+}
+
+/* .landing .image {
+    margin-left: 100vw;
+    margin-right: auto;
+} */
+
+.landing .image img {
+  width: 600px;
+}
+
+/* Section CSS */
+
+.sec {
+  height: 600px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec .text {
+  position: relative;
+  padding: 0 50px;
+  height: inherit;
+}
+
+.sec .text h1 {
+  position: relative;
+  left: 150px;
+}
+
+.sec .text img {
+  width: 13vw;
+  position: absolute;
+  top: 50px;
+}
+
+.sec .list {
+  width: 40%;
+}
+
+.sec .list ol {
+  list-style: none;
+  color: #e63946;
+}
+
+.sec .list ol li {
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.sec .list ol li span {
+  font-size: 20px;
+  position: absolute;
+  font-weight: 600;
+}
+
+.sec .list ol li p {
+  color: black;
+  /* font-size: 16px; */
+  padding-left: 60px;
+  line-height: 20px;
+  font-family: Archivo;
+}
+
+/* Info Section CSS */
+
+.infoSection {
+  height: 600px;
+}
+
+.infoHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.infoCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.infoCards .card {
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.infoCards .one .cardImg1 {
+  width: 180px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.infoCards .two .cardImg2 {
+  width: 180px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.infoCards .three .cardImg3 {
+  width: 180px;
+  position: absolute;
+  top: -50px;
+  right: -25px;
+}
+
+.cardBg1 {
+  height: 150px;
+  background-color: #ffb563;
+}
+
+.cardBg2 {
+  height: 150px;
+  background-color: #ffb563;
+}
+
+.cardBg3 {
+  height: 150px;
+  background-color: #ffb563;
+}
+
+.cardContent {
+  padding: 0 20px;
+}
+
+.cardContent h2 {
+  font-weight: 600;
+  font-family: Archivo;
+}
+
+.cardContent p {
+  line-height: 30px;
+  font-family: Archivo;
+}
+
+.cardContent .cardBtn {
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  background-color: #ebebeb;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContent .cardBtn .cardIcon {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+}
+
+/* Banner CSS */
+
+.banner {
+  height: 400px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.banner1 {
+  height: 5px;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bannerText h1 {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.bannerText1 h3 {
+  font-size: 15px;
+  /* font-weight: 600; */
+}
+
+.bannerText img {
+  width: 10vw;
+  margin-right: 20px;
+}
+
+.bannerImg img {
+  width: 400px;
+}
